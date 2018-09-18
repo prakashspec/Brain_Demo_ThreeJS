@@ -1,0 +1,179 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 02.07.2018 16:02:45
+
+newmtl Cerebrum_Material_2d
+	Ns 50.00
+	Ni 1.50
+	d 1.00
+	Tr 0.00
+	Tf 1.00 1.00 1.00 
+	illum 2
+	Ka 1.00 0.55 0.55
+	Kd 1.00 0.55 0.55
+	Ks 0.40 0.40 0.40
+	Ke 0.00 0.00 0.00
+	map_refl D:\KISHORE KAMAL\Autosim_Engine_Phase3\MHE - H ED  Dynamic Brain Activities RFP\ReflectionMap.jpg
+
+newmtl Cerebrum_Material_3d
+	Ns 50.00
+	Ni 1.50
+	d 1.00
+	Tr 0.00
+	Tf 1.00 1.00 1.00 
+	illum 2
+	Ka 0.38 0.73 0.69
+	Kd 0.38 0.73 0.69
+	Ks 0.40 0.40 0.40
+	Ke 0.00 0.00 0.00
+	map_refl D:\KISHORE KAMAL\Autosim_Engine_Phase3\MHE - H ED  Dynamic Brain Activities RFP\ReflectionMap.jpg
+
+newmtl Cerebrum_Material_4d
+	Ns 50.00
+	Ni 1.50
+	d 1.00
+	Tr 0.00
+	Tf 1.00 1.00 1.00 
+	illum 2
+	Ka 0.38 0.53 0.93
+	Kd 0.38 0.53 0.93
+	Ks 0.40 0.40 0.40
+	Ke 0.00 0.00 0.00
+	map_refl D:\KISHORE KAMAL\Autosim_Engine_Phase3\MHE - H ED  Dynamic Brain Activities RFP\ReflectionMap.jpg
+
+newmtl Brain_Amygdala_L_limbic_material
+	Ns 10.00
+	Ni 1.50
+	d 1.00
+	Tr 0.00
+	Tf 1.00 1.00 1.00 
+	illum 2
+	Ka 0.78 1.00 0.75
+	Kd 0.78 1.00 0.75
+	Ks 0.00 0.00 0.00
+	Ke 0.00 0.00 0.00
+
+newmtl Brain_Basal_Ganglia_basil_material
+	Ns 10.00
+	Ni 1.50
+	d 1.00
+	Tr 0.00
+	Tf 1.00 1.00 1.00 
+	illum 2
+	Ka 0.79 1.00 0.80
+	Kd 0.79 1.00 0.80
+	Ks 0.00 0.00 0.00
+	Ke 0.00 0.00 0.00
+
+newmtl Cerebellum_Material
+	Ns 50.00
+	Ni 1.50
+	d 1.00
+	Tr 0.00
+	Tf 1.00 1.00 1.00 
+	illum 2
+	Ka 0.70 0.48 0.37
+	Kd 0.70 0.48 0.37
+	Ks 0.53 0.53 0.53
+	Ke 0.00 0.00 0.00
+
+newmtl Copus_Material1
+	Ns 50.00
+	Ni 1.50
+	d 1.00
+	Tr 0.00
+	Tf 1.00 1.00 1.00 
+	illum 2
+	Ka 0.52 0.43 1.00
+	Kd 0.52 0.43 1.00
+	Ks 0.36 0.36 0.36
+	Ke 0.00 0.00 0.00
+	map_refl D:\KISHORE KAMAL\Autosim_Engine_Phase3\MHE - H ED  Dynamic Brain Activities RFP\ReflectionMap.jpg
+
+newmtl Limbic_Material
+	Ns 50.00
+	Ni 1.50
+	d 1.00
+	Tr 0.00
+	Tf 1.00 1.00 1.00 
+	illum 2
+	Ka 0.46 0.56 0.44
+	Kd 0.46 0.56 0.44
+	Ks 0.38 0.38 0.38
+	Ke 0.00 0.00 0.00
+	map_refl D:\KISHORE KAMAL\Autosim_Engine_Phase3\MHE - H ED  Dynamic Brain Activities RFP\ReflectionMap.jpg
+
+newmtl Stem_Material
+	Ns 50.00
+	Ni 1.50
+	d 1.00
+	Tr 0.00
+	Tf 1.00 1.00 1.00 
+	illum 2
+	Ka 0.94 0.77 0.59
+	Kd 0.94 0.77 0.59
+	Ks 0.36 0.36 0.36
+	Ke 0.00 0.00 0.00
+	map_refl D:\KISHORE KAMAL\Autosim_Engine_Phase3\MHE - H ED  Dynamic Brain Activities RFP\ReflectionMap.jpg
+
+newmtl Midbrain_Material
+	Ns 50.00
+	Ni 1.50
+	d 1.00
+	Tr 0.00
+	Tf 1.00 1.00 1.00 
+	illum 2
+	Ka 0.94 0.71 0.51
+	Kd 0.94 0.71 0.51
+	Ks 0.36 0.36 0.36
+	Ke 0.00 0.00 0.00
+	map_refl D:\KISHORE KAMAL\Autosim_Engine_Phase3\MHE - H ED  Dynamic Brain Activities RFP\ReflectionMap.jpg
+
+newmtl Thalamus
+	Ns 50.00
+	Ni 1.50
+	d 1.00
+	Tr 0.00
+	Tf 1.00 1.00 1.00 
+	illum 2
+	Ka 0.45 0.55 0.81
+	Kd 0.45 0.55 0.81
+	Ks 0.35 0.35 0.35
+	Ke 0.00 0.00 0.00
+
+newmtl Pons_Material
+	Ns 50.00
+	Ni 1.50
+	d 1.00
+	Tr 0.00
+	Tf 1.00 1.00 1.00 
+	illum 2
+	Ka 0.94 0.72 0.59
+	Kd 0.94 0.72 0.59
+	Ks 0.35 0.35 0.35
+	Ke 0.00 0.00 0.00
+	map_refl D:\KISHORE KAMAL\Autosim_Engine_Phase3\MHE - H ED  Dynamic Brain Activities RFP\ReflectionMap.jpg
+
+newmtl Brain_Thalmus_L_thalamus
+	Ns 10.00
+	Ni 1.50
+	d 1.00
+	Tr 0.00
+	Tf 1.00 1.00 1.00 
+	illum 2
+	Ka 0.51 0.32 0.32
+	Kd 0.51 0.32 0.32
+	Ks 0.00 0.00 0.00
+	Ke 0.00 0.00 0.00
+
+newmtl Cerebrum_Material_5d
+	Ns 50.00
+	Ni 1.50
+	d 1.00
+	Tr 0.00
+	Tf 1.00 1.00 1.00 
+	illum 2
+	Ka 0.85 0.39 0.87
+	Kd 0.85 0.39 0.87
+	Ks 0.40 0.40 0.40
+	Ke 0.00 0.00 0.00
+	map_refl D:\KISHORE KAMAL\Autosim_Engine_Phase3\MHE - H ED  Dynamic Brain Activities RFP\ReflectionMap.jpg

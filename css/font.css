@@ -1,0 +1,41 @@
+@font-face {
+    font-family: SourceSansPro-Bold;
+    src: url('../fonts/SourceSansPro-Bold.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: SourceSansPro-Regular;
+    src: url('../fonts/SourceSansPro-Regular.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Jura-Bold';
+	src: url('../fonts/Jura-Bold.otf');
+	src: url('../fonts/Jura-Bold.ttf');	
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Jura-Regular';
+	src: url('../fonts/Jura-Regular.otf');
+	src: url('../fonts/Jura-Regular.ttf');	
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Jura-Regular';
+	src: url('../fonts/Jura-Regular.otf');
+	src: url('../fonts/Jura-Regular.ttf');	
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Jura-Medium';
+	src: url('../fonts/Jura-Medium.otf');
+	src: url('../fonts/Jura-Medium.ttf');	
+	font-weight: normal;
+	font-style: normal;
+}
+

@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>DYNAMIC BRAIN</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link rel="stylesheet" href="css/style.css" >
+		<link rel="stylesheet" href="css/font.css" >
+		<script src="js/lib/jquery-1.11.0.min.js"></script>
+       <!--  <script src="js/scale_v_0.2.js"></script>		 -->
+	</head>
+
+	<body>
+		<div id="main-container">
+			<img style="position: absolute; left: 0px; top: 0px;" src="images/mcgraw logo-01.png"/>
+		<!-- <div id="dummy"></div> -->
+		<audio id="play_aud"></audio>
+		<div id="bg"></div>
+		<div class="fullScreen"></div>
+		<div id="icon0" class="dropdown">
+			<div class="dropdown-content">
+				<a href="javascript:void(0)">Testing Room</a>
+				<a href="javascript:void(0)">Mission Objectives</a>
+				<a class="gotodycbrain6_btn">Brain Notes</a>
+				<a class="page13_exit">Exit</a>
+			</div>
+		</div>
+		<img class="icons" id="icon_3" src="./images/icon3.png"/>
+		<img class="icons" id="icon_2" src="./images/icon2.png"/>
+		<img class="icons" id="icon_1" src="./images/icon1.png"/>
+		<div class="page0 page">
+			<div class="title">WELCOME TO THE DYNAMIC BRAIN:<br/><span class="sub-title">SPACE MISSION</span></div>
+			<div class="launch_btn">LAUNCH</div>
+		</div>
+		<div class="page1" name="page">
+			<img class="md-img" src="./images/md.png"/>
+			<div class="display-txt">
+				<div class="mission-dir">Mission Director:</div>
+				<div class="mission-txt"></div>
+				<div class="prev"></div>
+				<div class="num-txt">1/3</div>
+				<div class="next"></div>
+				<div class="goto_btn">GO TO TESTING ROOM</div>
+			</div>
+		</div>
+		<div id="page5" class="page5" name="page">
+			<div id="redbox"></div>
+			<div id="brain">DYNAMIC BRAIN</div>
+			<div class='innerLayer'></div>
+			<div id="icon0" class="dropdown">
+				<div class="dropdown-content">
+					<a href="javascript:void(0)">Testing Room</a>
+					<a href="javascript:void(0)">Mission Objectives</a>
+					<a class="gotodycbrain6_btn">Brain Notes</a>
+					<a class="page13_exit">Exit</a>
+				</div>
+			</div>
+			<!-- <div  id="grid"></div>
+			<div  id="human"></div>
+			<div  id="round"></div>
+			<div  id="scale"></div> -->
+			<!-- <div id="framediv"></div> -->
+			<div class='centerframe'></div>
+			<div class='leftroundImg'></div>
+			<div class='rightManHead'></div>
+					
+			<div class="borderDiv"></div>
+			<div id="square1_0" class='dummy'></div>
+			<div id="square1_1" class='dummy'>
+				<span id="sq1" class="letter1" >EVALUATION</span>
+				<span id="num1" class="number1" >1</span>
+				<span id="brain1" class="brain" >BRAIN BASICS</span>
+			</div>
+ 
+			<div id="square2_0" class='dummy'></div>
+			<div id="square2_1" class='dummy'>
+				<span id="sq2" class="letter1" >EVALUATION</span>
+				<span id="num2" class="number1" >2</span>
+				<span id="brain2" class="brain" >BRAIN COMPARISON</span>
+			</div> 
+			<div id="square3_0" class='dummy'></div>
+			<div id="square3_1" class='dummy'>
+				<span id="sq3" class="letter1" >EVALUATION</span>
+				<span id="num3" class="number1" >3</span>
+				<span id="brain3" class="brain" >THE BRAIN ON...</span>
+			</div>
+ 
+			<div id="square4_0" class='dummy'></div>
+			<div id="square4_1" class='dummy'>
+			<span id="sq4" class="letter1" >EVALUATION</span>
+			<span id="num4" class="number1" >4</span>
+			<span id="brain4" class="brain" >BRAIN AND BEHAVIOR</span>
+			</div>
+
+		</div>
+		<div class='page6' name="page">
+		<div class="prevBtn"></div>
+			<div class='page6Header'>
+				<div class='logoImg'></div>
+				<div id="brain">DYNAMIC BRAIN</div>
+				<div id="icon0" class="dropdown">
+					<div class="dropdown-content">
+						<a>Testing Room</a>
+						<a>Mission Objectives</a>
+						<a class="gotodycbrain6_btn">Brain Notes</a>
+						<a class="page13_exit">Exit</a>
+					</div>
+				</div>
+				<div class='navMenu'>
+					<div class='soundIcon'></div>
+					<div class='fourArrow'></div>
+					<div class='ifIcon'></div>
+					
+				</div>
+			</div>
+			<div class='workSpace'>
+				<div class='wsWrapper'>
+					<div class='leftroundImg'></div>
+					<div class='rightManHead'></div>
+					<div class='innerLayer'></div>
+					<div class='innerworkSpace'>
+						<div class='labelArea'>
+							<div class='leftBox'>
+								<div class='topScewBox'>
+									<div class='skewBoxTitle'>EVALUATION</div>
+									<div class='skewBoxNumber'>3</div>
+									<div class='skewBoxPara'>THE BRAIN ON...</div>
+								</div>
+								<div class='bottomBox'>
+									<div class='bottomBoxPara'> This test will allow you<br>to explore the impact of  environmental influences on<br>the structures and function of<br>the brain. 
+									<br></br>
+									Select a candidate to begin<br>your testing. </div>
+								</div>
+							</div>
+						</div>
+						<div class='candidateArea'>
+							<div class='imagNText'>
+								<div class='textDiv glowEffect' id="cand_1">
+									<p class='pgpara1'>CANDIDATE 1</p>
+									<p class='pgpara2'>Attachment (varying frequency and intensity)</p>
+								</div>
+								<div class='imgdiv'>
+									<div class='imageInnerdiv1'></div>
+								</div>
+							</div>
+							<div class='imagNText'>
+								<div class='textDiv glowEffect'>
+									<p class='pgpara1'>CANDIDATE 2</p>
+									<p class='pgpara2'>High-conflict environment</p>
+								</div>
+								<div class='imgdiv'>
+									<div class='imageInnerdiv2'></div>
+								</div>
+							</div>
+							<div class='imagNText'>
+								<div class='textDiv glowEffect'>
+									<p class='pgpara1'>CANDIDATE 3</p>
+									<p class='pgpara2'>Sleep deprivation</p>
+								</div>
+								<div class='imgdiv'>
+									<div class='imageInnerdiv3'></div>
+								</div>
+							</div>
+							<div class='imagNText'>
+								<div class='textDiv glowEffect'>
+									<p class='pgpara1'>CANDIDATE 4</p>
+									<p class='pgpara2'>Caffeine</p>
+								</div>
+								<div class='imgdiv'>
+									<div class='imageInnerdiv4'></div>
+								</div>
+							</div>
+							<div class='imagNText'>
+								<div class='textDiv glowEffect'>
+									<p class='pgpara1'>CANDIDATE 5</p>
+									<p class='pgpara2'>Opioid</p>
+								</div>
+								<div class='imgdiv'>
+									<div class='imageInnerdiv5'></div>
+								</div>
+							</div>
+							<div class='imagNText'>
+								<div class='textDiv glowEffect'>
+									<p class='pgpara1'>CANDIDATE 6</p>
+									<p class='pgpara2'>High screen time (video games, etc.)</p>
+								</div>
+								<div class='imgdiv'>
+									<div class='imageInnerdiv6'></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="page7"  name="page" style="display:none;">		
+			<div class="whitebg"></div>
+			<div class="white_rotate"></div>
+			<div class="bluering" id="rotateRing"></div>
+			<div class="manImg" id="manImg"></div>
+			<div class="barAnimation"></div> 
+			<div class="manAnimation"></div>
+		</div>
+		<div class="page8" name="page" id="page8">
+		    
+			<div class="page8_title">BRAIN SCAN RESULT:</div>
+			<div class="page8_subtitle">ATTACHMENT DISORDER</div>
+			<div class="page8_personality">PERSONALITY TEST RESULT:</div>
+			<ul class="personality_list">
+				<li>DETACHED</li>
+				<li>SHUNS RELATIONSHIPS</li>
+				<li>WITHDRAWN</li>
+			</ul>
+			<div class="img_title">CANDIDATE 1</div>
+			<img class="leftimg" src="images/figure-01.png"/>
+			<img class="leftbottimg" src="images/lefthuman-01.png"/>
+			<img class="rightcircle" src="images/knob1.png"/>
+			<div id="canvas-div"></div>
+			<img class="page8_brain htsp_0" src="images/right_view.png"/>
+			<div id="threeSixty"><img src='images/360-arrow.png' /></div>
+			<div id="threeSixty_txt">ROTATE</div>
+			<div id="halfBrainIcon"><img src='images/half_brain_icon.png' /></div>
+			<div id="fullBrainIcon"><img src='images/full_brain_icon.png' /></div>
+ 			<div class="page8_righttxt">INTENSITY</div>
+			<div class="intensity_blocker"></div>
+ 			
+			<div id="righttxt_1" class="page8_right">1</div>
+			<div id="righttxt_2" class="page8_right">2</div>
+			<div id="righttxt_3" class="page8_right">3</div>
+			<div id="righttxt_4" class="page8_right">4</div>
+			<div id="righttxt_5" class="page8_right">5</div>
+			<!-- <canvas id="myCanvas" width="100" height="100"></canvas>  -->
+			<div class="heartParent">
+			<div class="heart"></div>
+			</div>
+			<div class="btm_slider">
+				<div class="page_dot"><span class="circleadd"></span></div>
+				<div class="page_dot"></div>
+				<div class="page_dot"></div>
+			</div>
+			<div class="line" id="line0"></div>
+			<div class="line" id="line1"></div>
+			<div class="line" id="line2"></div>
+			<div class="line" id="line3"></div>
+			<div class="line" id="line4"></div>
+			<img class="p8btn_1" src="images/brain.png"/>
+			<img class="p8btn_2" src="images/brain.png"/>
+			<img class="p8btn_3" src="images/brain.png"/>
+			<img class="changeImg" src="images/page8_1.png"/>
+			<div class="btn_contain">
+				<div class="page8_btn" id="p8btn_0"><span>3D VIEW</span></div>
+				<div class="page8_btn" id="p8btn_1"><span>MRI VIEW</span></div>
+				
+				<div class="page8_btn" id="p8btn_3"><span>PERSONALITY TEST</span></div>
+				<div class="page8_btn" id="p8btn_4"><span>REPORT FINDINGS</span></div>
+			</div>
+			
+			<img class="hotspot p8btn_0" id="htsp_0" data-flag="false" src="images/plus_btn.png"/>
+			<img class="hotspot p8btn_0" id="htsp_1" data-flag="false" src="images/plus_btn.png"/>
+			<img class="hotspot p8btn_0" id="htsp_2" data-flag="false" src="images/plus_btn.png"/>
+			<img class="hotspot p8btn_0" id="htsp_3" data-flag="false" src="images/plus_btn.png"/>
+			<img class="hotspot p8btn_0" id="htsp_4" data-flag="false" src="images/plus_btn.png"/>
+		    <div class="labelConatiner p8btn_0">
+				<div class="labelName"></div>
+				<div class="labelDes"></div>
+		   </div>
+		   <!-- <div class="heart pulse2"></div> -->
+		</div>	
+		<div class="page9">
+			<img style="position: absolute; left: 0px; top: 0px;" src="images/mcgraw logo-01.png"/>
+			<img class="md-img" src="./images/md.png"/>
+			<div class="display-txt">
+				<div class="mission-dir">Mission Director:</div>
+				<div class="missioncom-txt">&#x201c;Good work.<br/>You&#x2019;ve successfully tested your patient! Can you report your findings?&#x201d;</div>
+				<div class="gotorpt_btn">REPORT FINDINGS</div>
+			</div>			
+		</div>	
+		<div class="page10">
+			<div class="mcq">
+				<div class='dragarea'></div>
+				<div class='dragcontainment'></div>
+				<img class="page8_brain htsp_0" src="images/right_view.png"/>
+				<img class="mcqbtns" id="mcq_0" data-flag="false" src="images/plus_btn.png"/>
+				<img class="mcqbtns" id="mcq_1" data-flag="false" src="images/plus_btn.png"/>
+				<img class="mcqbtns" id="mcq_2" data-flag="false" src="images/plus_btn.png"/>
+				<img class="mcqbtns" id="mcq_3" data-flag="false" src="images/plus_btn.png"/>
+				<img class="mcqbtns" id="mcq_4" data-flag="false" src="images/plus_btn.png"/>
+				<div class="line mcqline" id="mcqline0"></div>
+				<div class="line mcqline" id="mcqline1"></div>
+				<div class="line mcqline" id="mcqline2"></div>
+				<div class="line mcqline" id="mcqline3"></div>
+				<div class="line mcqline" id="mcqline4"></div>
+				<div class="labelConatiner p8btn_0">
+				<div class="mcqLabel">
+						<div class='labeltxtval'></div>
+						<div class="responseTxt"></div>
+				</div>
+				</div>
+				<div class='mcqArea'>
+					<div class='mcqTitle'>REPORT FINDINGS</div>
+					<div class='outlineDiv'>
+						<div class='questionNumeber'>QUESTION 1</div>
+						<div class='mcqquestion'>Which brain lobe is responsible for interpreting visual stimuli and information? Select the right region.</div>
+						<br/><br/><br/><br/><br/>
+						<div class='mcqnavigation'>
+							<div class = 'mcqcentertxt'>
+								<span class = 'mcqleftArrow'></span>
+								<span class='currentQuestion'></span><span>/</span><span class='totalQuestion'></span>
+								<span class = 'mcqrightArrow'>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>	
+				<div class='continueBtn'>Continue</div>
+				<div class='dummyMcq'></div>
+				
+			</div>
+			<!-- <div class="display-txt">
+				<div class="gototestcom_btn">GO TO TESTING ROOM</div>
+			</div> -->
+		</div>	
+		<div class="page11">
+			<img style="position: absolute; left: 0px; top: 0px;" src="images/mcgraw logo-01.png"/>
+			<img class="md-img" src="./images/md.png"/>
+			<div class="display-txt">
+				<div class="mission-dir">Mission Director:</div>
+				<div class="missiontext-txt">&#x201c;You&#x2019;ve completed Evaluation 3.<br/>Select another evaluation to run some more candidate tests&#x201d;</div>
+				<div class="gotodycbrain_btn">SWITCH CANDIDATE</div>
+			</div>			
+		</div>	
+		<div class="page12">
+			<img style="position: absolute; left: 0px; top: 0px;" src="images/mcgraw logo-01.png"/>
+		<div class="close_brainnotes"></div>
+			<div id="brain">DYNAMIC BRAIN</div>
+			<div class='innerLayer'></div>
+			<div id="icon0" class="dropdown">
+				<div class="dropdown-content">
+					<a href="javascript:void(0)">Testing Room</a>
+					<a href="javascript:void(0)" class="page11_exit">Mission Objectives</a>
+					<a class="gotodycbrain6_btn">Brain Notes</a>
+					<a class="page13_exit">Exit</a>
+				</div>
+			</div>
+			
+			<div id="notes_1_0" class='brainnote'></div>
+			<div id="notes_1_1" class='brainnote_1'><img class="note_brain" src="./images/note_1.png"/></div>
+			<div id="notes_2_0" class='brainnote'></div>
+			<div id="notes_2_1" class='brainnote_1'><img class="note_brain" src="./images/note_2.png"/>			</div>
+			<div id="notes_3_0" class='brainnote'></div>
+			<div id="notes_3_1" class='brainnote_1'><img class="note_brain" src="./images/note_3.png"/>			</div>
+			<div id="notes_4_0" class='brainnote'></div>
+			<div id="notes_4_1" class='brainnote_1'><img class="note_brain" src="./images/note_4.png"/>			</div>			
+			<div id="notes_5_0" class='brainnote'></div>
+			<div id="notes_5_1" class='brainnote_1'><img class="note_brain" src="./images/note_5.png"/>			</div>
+			<div id="notes_6_0" class='brainnote'></div>
+			<div id="notes_6_1" class='brainnote_1' style="background-color:#4390bb;"><div class="brain_txt">CEREBELLUM</div> 						</div>
+			<div id="notes_7_0" class='brainnote'></div>
+			<div id="notes_7_1" class='brainnote_1'><img class="note_brain" src="./images/note_7.png"/>			</div>
+			<div id="notes_8_0" class='brainnote'></div>
+			<div id="notes_8_1" class='brainnote_1'><img class="note_brain" src="./images/note_8.png"/>			</div>
+			<div id="notes_9_0" class='brainnote'></div>
+			<div id="notes_9_1" class='brainnote_1'><img class="note_brain" src="./images/note_9.png"/>			</div>
+			<div id="notes_10_0" class='brainnote'></div>
+			<div id="notes_10_1" class='brainnote_1'><img class="note_brain" src="./images/note_10.png"/>			</div>
+			<div id="notes_11_0" class='brainnote'></div>
+			<div id="notes_11_1" class='brainnote_1'><img class="note_brain" src="./images/note_11.png"/>			</div>
+			<div id="notes_12_0" class='brainnote'></div>
+			<div id="notes_12_1" class='brainnote_1'><img class="note_brain" src="./images/note_12.png"/></div>			
+			
+			<div class="brain_header">BRAIN NOTES</div><div class="brain_bottom"></div>
+			
+			
+			<div class="brain_notes" style="display:none;">
+			<div class="brain_notepad"></div>
+			<div class="brain_notepad1">
+			<div class="brain_text1">Brain Notes</div>
+			<div class="note_close">&times;</div>
+			<textarea rows="17" cols="39" class="brain_text" style="resize: none;"></textarea>
+			
+			</div>
+			</div>
+			
+			<div class='centerframe'></div>
+			<div class='leftroundImg'></div>
+			<div class='rightManHead' style="background:url('./images/brain_icon.png')"></div>
+		</div>
+		<!--<div class="page12">
+		 <div class="display-txt">
+				<div class="gotocom_btn">CLOSE</div>
+			</div> 
+		</div>	-->
+		<div class="page13">
+			<img style="position: absolute; left: 0px; top: 0px;" src="images/mcgraw logo-01.png"/>
+			<img class="md-img" src="./images/md.png"/>
+			<div class="display-txt">
+				<div class="mission-dir">Mission Director:</div>
+				<div class="missionclose-txt">&#x201c;Evaluations successfully completed. Candidates selected and on board. All systems go. Good luck out there!&#x201d;</div>
+				<div class="gotoclose_btn">CLOSE</div>
+			</div>	
+		</div>	
+		<!-- <div class="sub-title">SPACE MISSION</div> -->
+		<!-- <div id="frame"></div>
+		<div id="mini-man"></div>
+		<div id="logo"></div>
+		<div id="nav"></div>
+		<div id="toggle"></div>
+		<div id="canvas-div"></div>
+		<div id="ring"></div> -->
+		</div>
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+		<script src="js/jquery-ui.js"></script>
+		<script src="Sprite_files/Three.js"></script>
+		<script src="build/three.js"></script>
+		<script src="js/TrackballControls.js"></script>
+				
+		<script src="js/DDSLoader.js"></script>
+		<script src="js/MTLLoader.js"></script>
+		<script src="js/OBJLoader.js"></script>
+
+		<script src="js/Detector.js"></script>
+		<script src="js/stats.min.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/mcq.js"></script>
+		
+		<script src="Sprite_files/Detector.js"></script>
+		<script src="Sprite_files/Stats.js"></script>
+		<!-- <script src="Sprite_files/OrbitControls.js"></script> -->
+		<script src="Sprite_files/THREEx.js"></script>
+		<script src="Sprite_files/THREEx_002.js"></script>
+		<script src="Sprite_files/THREEx_003.js"></script>
+		
+		<script>
+			
+			var container, stats;
+			var halfbrian, fullbrain;
+
+			var camera, scene, renderer, controls,CANVAS_WIDTH = 200,
+    CANVAS_HEIGHT = 200;
+
+			var mouseX = 0, mouseY = 0;
+			var widthX = 895;
+			var heightY = 500;
+			var windowHalfX = widthX / 2;
+			var windowHalfY = heightY / 2;
+
+			var windowFullX = widthX;
+			var windowFullY = heightY;
+
+
+			init();
+			animate();
+			
+
+			function init() {
+
+				container = document.getElementById( 'canvas-div' );
+				//document.body.appendChild( container );
+
+				camera = new THREE.PerspectiveCamera( 55, windowHalfX / windowHalfY, 0.2, 2000 );
+				
+				camera.position.x = 19.838460059270766;
+				camera.position.y = -1.797442297984686;
+				camera.position.z = -1.7901686127664105;
+				
+				// scene
+				
+				scene = new THREE.Scene();
+				//scene.background = new THREE.Color( 0xffffffff, 0 );
+				var ambientLight = new THREE.AmbientLight( 0xcccccc, 0.4 );
+				scene.add( ambientLight );
+
+				var pointLight = new THREE.PointLight( 0xffffff, 0.8 );
+				camera.add( pointLight );
+				scene.add( camera );
+
+				// model
+
+				var onProgress = function ( xhr ) {
+
+					if ( xhr.lengthComputable ) {
+
+						var percentComplete = xhr.loaded / xhr.total * 100;
+						console.log( Math.round( percentComplete, 2 ) + '% downloaded' );
+
+					}
+
+				};
+
+				var onError = function ( xhr ) { };
+
+				THREE.Loader.Handlers.add( /\.dds$/i, new THREE.DDSLoader() );
+
+				new THREE.MTLLoader()
+					.setPath( 'images/' )
+					.load( 'full_brain.mtl', function ( materials ) {
+
+						materials.preload();
+
+						new THREE.OBJLoader()
+							.setMaterials( materials )
+							.setPath( 'images/' )
+							.load( 'full_brain.obj', function ( object ) {
+
+								object.position.y = -10;
+								//scene.add( object );
+								tmpMesh = object;
+								fullbrain = new THREE.Object3D();
+								for(var k=0; k<tmpMesh.children.length-5; k++)
+								{
+								tmpMesh.children[k].material.transparent = true;
+								mesh = new THREE.Mesh( tmpMesh.children[k].geometry, tmpMesh.children[k].material);
+								mesh.position.y = -10;
+								fullbrain.add(mesh);
+								
+								
+								//targetList.push(mesh);
+								}
+								scene.add( fullbrain );
+								
+								halfbrian = new THREE.Object3D();
+								for(var k=tmpMesh.children.length-5; k<=tmpMesh.children.length-1; k++)
+								{
+								tmpMesh.children[k].material.transparent = true;
+								mesh1 = new THREE.Mesh( tmpMesh.children[k].geometry, tmpMesh.children[k].material);
+								mesh1.position.y = -10;
+								//mesh1.visible  =false;
+								halfbrian.add(mesh1);
+								//targetList.push(mesh);
+								}
+								scene.add( halfbrian );
+								
+								//mesh1.visible  =false;
+							}, onProgress, onError );
+
+					} );
+
+				//
+
+				renderer = new THREE.WebGLRenderer({ alpha: true , antialias: true });
+				//renderer.setPixelRatio( window.devicePixelRatio );
+				renderer.setSize( 895, 500 );
+				renderer.setClearColor( 0xffffff, 0 );
+				console.log(windowHalfX, windowHalfY, window.devicePixelRatio);
+				container.appendChild( renderer.domElement );
+				controls = new THREE.TrackballControls( camera, renderer.domElement );
+				
+				controls.rotateSpeed = 2.5;
+				controls.zoomSpeed = 2.5;
+				controls.panSpeed = 2.5;
+
+				controls.noZoom = false;
+				controls.noPan = false;
+
+				controls.staticMoving = true;
+				controls.dynamicDampingFactor = 0.3;
+
+				controls.addEventListener( 'change', render );
+				
+				
+				document.addEventListener( 'mousemove', onDocumentMouseMove, false );
+
+				//
+
+				window.addEventListener( 'resize', onWindowResize, false );
+
+			}
+
+			function onWindowResize() {
+			return;
+
+				windowHalfX = windowHalfX / 2;
+				windowHalfY = windowHalfY / 2;
+
+				camera.aspect = windowHalfX / windowHalfY;
+				camera.updateProjectionMatrix();
+
+				renderer.setSize( windowHalfX, windowHalfY );
+
+			}
+
+			function onDocumentMouseMove( event ) {
+				return;
+				mouseX = ( event.clientX - windowHalfX ) / 2;
+				mouseY = ( event.clientY - windowHalfY ) / 2;
+
+			}
+
+			//
+
+			function animate() {
+
+				requestAnimationFrame( animate );
+				controls.update();
+				render();
+
+			}
+
+			function render() {
+
+				//camera.position.x += ( mouseX - camera.position.x ) * .05;
+				//camera.position.y += ( - mouseY - camera.position.y ) * .05;
+
+				//camera.lookAt( scene.position );
+
+				renderer.render( scene, camera );
+
+			}
+
+		</script>
+	</body>
+</html>
